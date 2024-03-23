@@ -67,14 +67,9 @@ Como parte de la estructuración de los datos se decide trabajar con tres variab
 Tomando esto en cuenta se tiene que en total se analizaran 15 Variables que corresponden a: promedio de transacciones, número de transacciones, VisaN, MasterN, Otras, %lunes, %martes, %miércoles, %jueves, %viernes, %sábado, %domingo, %mañana, %tarde y %noche.
 ## <a name="_toc1433927"></a><a name="_toc1961839"></a>**Formateo de los datos**
 Los porcentajes de consumo según tipo de tarjeta, porcentaje de consumo por jornada y porcentaje de consumo por día son variables multicolineales, por lo que se decide transformar estas variables, calculando un aproximado del total de consumo para cada variable, de la siguiente manera:
-
-
 ![](027.png)
-
 Consumo total = X’ \* %Consumo \* Número de transacciones
-
 Donde:
-
 X’: Número aleatorio con distribución normal con parámetros el promedio de la transacción y desviación por transacción para cada cliente.
 
 Por motivo de esta transformación se elimina la variable número de transacciones dado que está queda correlacionada con la mayoría de las variables de consumo.
