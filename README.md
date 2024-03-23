@@ -1,4 +1,4 @@
-
+# Campaña de marketing segmentada para clientes bancarios
 ## <a name="_toc1433915"></a><a name="_toc1961827"></a>**Determinar objetivos del negocio**
 Ofrecer paquetes de servicios para cada agrupación de clientes encontrada que se adapten a las necesidades, deseos y poder adquisitivo los clientes bancarios, para poder aumentar las ganancias del banco.  
 - ### <a name="_toc1433916"></a><a name="_toc1961828"></a>**Contexto:** 
